@@ -19,6 +19,7 @@ stylesheet = """
         """
 
 def get_index_for_category(cat):
+    index = None
     if cat == 'name':
         index = 1
     elif cat == 'pin':
